@@ -1,2 +1,2 @@
 # jaiyaswebsite.github.io
-https://tiapergrad2023.github.io/jaiyaswebsite.github.io/
+https://caringforcholesterol.github.io/caring/
