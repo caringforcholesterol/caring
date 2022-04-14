@@ -5,14 +5,28 @@ p {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 10px;
-  width: 900px;
+  width: 1000px;
   background-color: #FFC0CB;
-  margin-top: 150px;
-  font-size: 18px;
+  margin-top: 200px;
+  margin-left: 100px;
+  font-size: 24px;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-left: 100px;
+  font-size: 46px;
 }
 
 .imageleft {
-  position: relative;
-  right: 30px;
-  border: 3px solid #FFC0CB;
+  position: fixed;
+  right: 200px;
+  top: 250px;
+  border: 5px solid #FFC0CB;
+}
+
+body {
+  height: 1000px;
+  background-color: #cccccc;
+  background-image: linear-gradient(rgb(150, 199, 245), rgb(219, 164, 245), rgb(243, 145, 145));
 }
