@@ -4,7 +4,7 @@
   line-height: 1.1;
   padding: 10px;
   width: 1000px;
-  background-color: #FFC0CB;
+  background-color: #5cfad8;
   margin-top: 200px;
   margin-left: 100px;
   font-size: 24px;
@@ -17,7 +17,7 @@
   line-height: 1.1;
   padding: 10px;
   width: 900px;
-  background-color: #FFC0CB;
+  background-color: #5cfad8;
   margin-top: 200px;
   margin-left: 100px;
   font-size: 24px;
@@ -32,7 +32,7 @@
   line-height: 1.1;
   padding: 10px;
   width: 900px;
-  background-color: #FFC0CB;
+  background-color: #5cfad8;
   margin-top: 200px;
   margin-left: 100px;
   font-size: 24px;
@@ -43,7 +43,7 @@ h1 {
   margin-top: 100px;
   margin-left: 100px;
   font-size: 46px;
-  background-color: #FFC0CB;
+  background-color: #5cfad8;
   padding-left: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -52,7 +52,7 @@ h1 {
 }
 
 .title {
-  width: 200px;
+  width: 410px;
 }
 
 .medium {
@@ -60,7 +60,7 @@ h1 {
 }
 
 .food {
-  width: 540px;
+  width: 550px;
 }
 
 .large {
@@ -71,24 +71,24 @@ h1 {
   position: absolute;
   right: 205px;
   top: 200px;
-  border: 5px solid #FFC0CB;
+  border: 5px solid #000000;
 }
 
 .imageright {
   position: absolute;
   left: 105px;
   top: 600px;
-  border: 5px solid #FFC0CB;
+  border: 5px solid #000000;
 }
 
 body {
   height: 1000px;
-  background-color: #cccccc;
-  background-image: linear-gradient(rgb(189, 236, 255), rgb(221, 174, 243), rgb(247, 160, 160));
+  background-color: #5cfad8;
+  background-image: linear-gradient(rgb(189, 229, 255), rgb(176, 236, 247), rgb(138, 252, 208));
 }
 
 .dropdownbtn {
-  background-color: #F4C2C2;
+  background-color: #8dfce4;
   color: black;
   padding: 20px;
   font-size: 18px;
@@ -102,7 +102,7 @@ body {
   .dropdownlist-content {
   display: none;
   position: absolute;
-  background-color: #FFC0CB;
+  background-color: #8dfce4;
   min-width: 120px;
   z-index: 1;
   }
@@ -113,4 +113,4 @@ body {
   }
   .dropdownlist-content a:hover {background-color: lightcyan;}
   .dropdowndemo:hover .dropdownlist-content {display: block;}
-  .dropdowndemo:hover .dropdownbtn {background-color: #FFC0CB;}
+  .dropdowndemo:hover .dropdownbtn {background-color: #8dfce4;}
