@@ -86,9 +86,7 @@ h1 {
   margin-top: 100px;
   margin-left: 75px;
   font-size: 46px;
-  background-color: #5cfad8;
   padding: 10px;
-  border: 3px solid #000000;
 }
 
 .title {
@@ -109,6 +107,20 @@ h1 {
 
 .comfort {
   width: 1075px;
+  font-family: "Monaco", "Courier New", monospace;
+  margin-bottom: 3em;
+  margin-top: 1em;
+}
+
+.big {
+  font-size: 26px;
+  text-align: center;
+  line-height: 1.1;
+  padding: 2rem;
+  margin: auto;
+  font-family: "Monaco", "Courier New", monospace;
+  color: #ffffff;
+  width: 1000px;
 }
 
 .imagetitle {
@@ -147,14 +159,17 @@ h1 {
 }
 
 body {
-  height: 1000px;
+  height: 100%;
+  width: 100%;
   background-color: #5cfad8;
-  background-image: linear-gradient(rgb(158, 255, 234), rgb(189, 245, 255), rgb(167, 253, 239));
+  background-image: url("desertsand.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .big-container {
-  padding: 0;
-  margin: 100;
+  padding: 20px;
+  margin: 100px;
   list-style: ;
   -ms-box-orient: horizontal;
   display: -webkit-box;
@@ -173,21 +188,22 @@ body {
 .text-box {
   text-align: center;
   line-height: 1.1;
-  padding: 10px;
-  background-color: #5cfad8;
-  margin-top: 150px;
-  margin-left: 100px;
-  font-size: 24px;
+  padding: 2rem;
+  margin: auto;
+  font-size: 22px;
+  font-family: "Monaco", "Courier New", monospace;
+  color: #ffffff;
   width: 1000px;
-  border: 3px solid #000000;
 }
 
 .img-border {
   border: 5px solid #000000;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .dropdownbtn {
-  background-color: #8dfce4;
+  background-color: #cfcfcf;
   color: black;
   padding: 20px;
   font-size: 18px;
@@ -201,7 +217,7 @@ body {
   .dropdownlist-content {
   display: none;
   position: absolute;
-  background-color: #8dfce4;
+  background-color: #cfcfcf;
   min-width: 120px;
   z-index: 1;
   }
@@ -212,4 +228,4 @@ body {
   }
   .dropdownlist-content a:hover {background-color: lightcyan;}
   .dropdowndemo:hover .dropdownlist-content {display: block;}
-  .dropdowndemo:hover .dropdownbtn {background-color: #8dfce4;}
+  .dropdowndemo:hover .dropdownbtn {background-color: #cfcfcf;}
